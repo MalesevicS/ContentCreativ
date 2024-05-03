@@ -1,4 +1,4 @@
-.hero-containerJ {
+.hero_Container {
     position: relative;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     width: 100%;
   }
   
-  .t-container {
+  .text_Hero {
     position: absolute;
     top: 35%;
     right: 6%;
@@ -18,7 +18,7 @@
     width: 45%;
   }
   
-  .t-container h1 {
+  .text_Hero h1 {
     font-weight: 900;
     opacity: 1;
     color: white;
@@ -32,25 +32,13 @@
     filter: blur(2px);
   }
   
-  .t-container h3 {
+  .text_Hero h3 {
     color: white;
     padding-top: 10%;
     font-size: x-large;
   }
-  
-  .btnC {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .btnC:hover {
-    background-color: #0056b3;
-  }
+
+
   
   @media only screen and (max-width: 768px) {
     .t-container {

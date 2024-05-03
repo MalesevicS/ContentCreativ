@@ -7,9 +7,9 @@ import Footer from '../components/Footer';
 
 const MainPage = () => {
   return (
-    <div className="hero-containerJ">
+    <div className="hero_Container">
       <img className='bgPicMain' src={backgroundPic} alt="" />
-      <div className="t-container">
+      <div className="text_Hero">
         <h1>Digital marketing that delivers results!</h1>
         <h3 className='ptext'>Strategic positioning of your brand on the market, setting it apart from competitors and positioning it in the "top of mind" of your clients.</h3>
       </div>

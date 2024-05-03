@@ -1,8 +1,13 @@
 import React from 'react'
+import OurPhilosophy from '../components/OurPhilosophy'
+import AboutUs from '../components/AboutUs'
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div>
+      <OurPhilosophy />
+      <AboutUs />
+    </div>
   )
 }
 
