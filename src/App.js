@@ -19,8 +19,8 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/reference" element={<ReferencePage />} />
         </Routes>
+        <Footer />
       </div>
-      <Footer />
     </Router>
     
   );
