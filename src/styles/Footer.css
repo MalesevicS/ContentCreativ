@@ -1,0 +1,56 @@
+.footer {
+    background: linear-gradient(to bottom, #57ACAA, #92A2BB);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 10%;
+    border-top: 1px solid black;
+    font-weight: bold;
+  }
+  
+  .section {
+    flex: 1 1 200px;
+    margin: 10px;
+    max-width: 50%;
+  }
+
+  .section p {
+    padding: 0;
+    height: 50px;
+    font-weight: 400;
+  }
+  
+  span {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .footerText {
+    color: black;
+  }
+
+  a {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .at {
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section {
+      max-width: 100%;
+      padding-top: 10%;
+    }
+    .section p {
+        font-size: medium;
+      }
+
+      
+  }
+  

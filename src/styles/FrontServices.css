@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.services__top-content {
+    text-align: center;
+   
+    background-color: #F1F5E5;
+}
+
+.services__item {
+    width: 100%; 
+    padding: 30px 15px;
+    text-align: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+.service__icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: var(--icon-bg); 
+    margin-bottom: 30px;
+}
+
+.service__icon i {
+    font-size: 2rem;
+}
+
+.service__title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.service_item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: #F1F5E5;
+    overflow: scroll;
+}
+
+.imgp {
+    height: 200px; 
+    width: 300px;
+    border-radius: 10%;
+    animation: slideInFromLeft 2.5s ease-in-out forwards;
+}
+
+.services__title {
+    font-weight: bold;
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+
+h6 {
+    padding: 2%;
+    font-size: 20px;
+}
+
+p {
+    padding: 5px;
+    padding-bottom: 5%;
+    font-weight: 300;
+    font-size: medium; 
+}
+
+
+
+button {
+    padding: 15px;
+    border-radius: 10%;
+    font-weight: 300;
+    border: 2px solid black;
+    font-size: medium; 
+    height: auto;
+}
+
+h1 {
+    font-size: 40px; 
+}
+.services {
+    background: linear-gradient(to top, #57ACAA, #92A2BB);
+}
+
+button:hover {
+    transform: translateY(-1px);
+    color: brown;
+    cursor: pointer;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+
+@media only screen and (max-width: 776px) {
+    .service_item-wrapper {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+    }
+    .imgp {
+    height: auto; 
+    width: 70%;
+    border-radius: 10%;
+    }
+
+    
+   
+}
+
+@media only screen and (max-width: 1370px ) and (min-width: 776px) {
+    .service_item-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 2rem; 
+    }
+}
