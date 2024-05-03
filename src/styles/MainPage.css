@@ -41,18 +41,18 @@
 
   
   @media only screen and (max-width: 768px) {
-    .t-container {
+    .text_Hero {
       top: 30%; 
       right: 0;
       left: 0; 
       width: 80%; 
     }
   
-    .t-container h1 {
+    .text_Hero h1 {
       font-size: 40px; 
     }
   
-    .t-container h3 {
+    .text_Hero h3 {
       font-size: large; 
     }
   }
