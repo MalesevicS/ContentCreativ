@@ -3,11 +3,7 @@
     box-sizing: border-box; 
 }
 
-.services__top-content {
-    text-align: center;
-   
-    background-color: #F1F5E5;
-}
+
 
 .services__item {
     width: 100%; 
@@ -44,7 +40,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    background-color: #F1F5E5;
+    background: linear-gradient(172deg, #383434 0%, #363131 5%, #0e679a 59%, #312d29 99%, #1b1b1b 100%);
+  
     overflow: scroll;
 }
 

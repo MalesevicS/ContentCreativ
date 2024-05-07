@@ -52,14 +52,7 @@ const MarketingService = () => {
 
   return (
     <div ref={refP} className="services">
-      {/* Vrh sadržaja */}
-      <div className="services__top-content" id="servicesTopContent">
-        <h1>Services</h1>
-      </div>
-
-      {/* Wrapper za stavke usluga */}
-      <div className="service_item-wrapper">
-        {/* Mapiranje podataka o uslugama */}
+       <div className="service_item-wrapper">
         {serviceData.map((item, index) => (
           <Link to={item.to} key={index} style={{ textDecoration: 'none' }} onClick={scrollToTop}>
             <div className={`services__item ${item.className}`}>
