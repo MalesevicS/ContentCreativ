@@ -1,0 +1,42 @@
+.seo__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: black;
+    border-top: 2px solid wheat;
+  }
+  
+  .seo_image {
+    width: 80%;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .images__container {
+    display: flex;
+  }
+  
+  .text_container {
+    text-align: center;
+    background: linear-gradient(172deg, #FF5451 0%, #FF5451 5%, #FE895F 59%, #FCB56B 99%, #FCB56B 100%);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .text_container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .text_container p {
+    font-size: 16px;
+    line-height: 1.6;
+    background: linear-gradient(172deg, #FF5451 0%, #FF5451 5%, #FE895F 59%, #FCB56B 99%, #FCB56B 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+  }
+  

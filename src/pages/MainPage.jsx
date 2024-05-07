@@ -5,6 +5,7 @@ import backgroundPic from "../images/mainPhoto.jpg"
 import MarketingService from "../components/MarketingService"
 import Footer from '../components/Footer';
 import HomeSlider from '../components/HomeSlider';
+import WebDev from '../components/WebDev';
 
 const MainPage = () => {
   return (
