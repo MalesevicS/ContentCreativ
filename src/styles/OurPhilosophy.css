@@ -1,8 +1,10 @@
 .OurPhilosophy_container {
-    background-color: #F1F5E5;
+    background: linear-gradient(172deg, #2a3e97 0%, #9fe8f8 5%, #1e5983 59%, #0b63aa 99%, #09218f 100%);
     border-top: 1px solid black;
     padding-top: 10%;
-    display: flex;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paraf {
@@ -11,20 +13,58 @@
     font-weight: 400;
 }
 
-.imgContainer {
-    width: 35%;
+
+.text_Paraf {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+    background: linear-gradient(172deg, #100202 0%, #141212 5%, #0f0f0f 59%, #100202 99%, #100202 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    color: black;
+    height: 130px;
+    padding-left: 2%;
+    font-size: 22px;
+    font-weight: 500;
 }
 
-.imgOff {
-    height: 500px;
-    width: 100%;
-    padding-left: 4%;
-    border-radius: 40px;
+.parafH {
+    color: yellow;
 }
-
-.textPart {
-    width: 65%;
+  
+@keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
 }
+  
+.text_Paraf:nth-child(1) {
+    animation-delay: 0.1s;
+}
+  
+.text_Paraf:nth-child(2) {
+    animation-delay: 0.3s;
+}
+  
+.text_Paraf:nth-child(3) {
+    animation-delay: 0.5s;
+}
+  .text_Paraf:nth-child(4) {
+    animation-delay: 0.7s;
+  }
+  .text_Paraf:nth-child(5) {
+    animation-delay: 0.9s;
+  }
+  
+   
+.textPart h1 {
+    text-align: center;
+}
+  
+  
 
 @media only screen and (max-width: 768px) {
     .text_Paraf {
