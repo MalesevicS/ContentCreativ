@@ -40,7 +40,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    background: linear-gradient(172deg, #383434 0%, #363131 5%, #0e679a 59%, #312d29 99%, #1b1b1b 100%);
+    background: linear-gradient(172deg, #2a3e97 0%, #9fe8f8 5%, #1e5983 59%, #0b63aa 99%, #09218f 100%);
+
 }
 
 .imgp {
