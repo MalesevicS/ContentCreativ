@@ -10,8 +10,9 @@ import WebDev from '../components/WebDev';
 const MainPage = () => {
   return (
     <div className="hero_Container">
-      <HomeSlider />
+       <HomeSlider /> 
       <MarketingService />
+     
     </div>
   );
 };

@@ -5,13 +5,15 @@ import logo from "../images/logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false); // Dodajemo stanje za proširenje navbar-a
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+    setIsExpanded(!isExpanded); // Invertujemo stanje proširenja navbar-a
   };
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isExpanded ? 'expanded' : ''}`}> {/* Dodajemo klasu expanded kada je navbar proširen */}
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <img className='logoPic' src={logo} alt="#" />

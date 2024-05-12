@@ -41,8 +41,6 @@
     justify-content: space-between;
     gap: 2rem;
     background: linear-gradient(172deg, #383434 0%, #363131 5%, #0e679a 59%, #312d29 99%, #1b1b1b 100%);
-  
-    overflow: scroll;
 }
 
 .imgp {
@@ -112,7 +110,7 @@ button:hover {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        height: 20%;
+        height: auto; 
     }
     .imgp {
     height: auto; 

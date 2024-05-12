@@ -39,10 +39,8 @@ const serviceData = [
 ];
 
 const MarketingService = () => {
-  // Ref za scroll na vrh stranice
   const refP = useRef(0);
 
-  // Funkcija za skrolovanje na vrh stranice
   const scrollToTop = () => {
     const servicesTopContent = document.getElementById('servicesTopContent');
     if (refP.current) {

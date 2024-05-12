@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 40px;
-    background-color: black;
+    background: linear-gradient(172deg, #2a3e97 0%, #9fe8f8 5%, #9fe8f8 59%, #0b63aa 99%, #09218f 100%);
     border-top: 2px solid wheat;
   }
   
@@ -22,9 +22,7 @@
   
   .text_container {
     text-align: center;
-    background: linear-gradient(172deg, #FF5451 0%, #FF5451 5%, #FE895F 59%, #FCB56B 99%, #FCB56B 100%);
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;
+    color: black;
   }
   
   .text_container h1 {
@@ -34,9 +32,8 @@
   
   .text_container p {
     font-size: 16px;
+    font-weight: 700;
     line-height: 1.6;
-    background: linear-gradient(172deg, #FF5451 0%, #FF5451 5%, #FE895F 59%, #FCB56B 99%, #FCB56B 100%);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
+    color: black;
   }
   
