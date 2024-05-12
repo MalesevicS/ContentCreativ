@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
           <Link to="/" onClick={toggleNavbar}>Home</Link>
           <Link to="/about" onClick={toggleNavbar}>About</Link>
-          <Link to="/services" onClick={toggleNavbar}>Services</Link>
+          <Link to="/reference" onClick={toggleNavbar}>Services</Link>
         </div>
         <div className="navbar-toggle" onClick={toggleNavbar}>
           <span></span>
