@@ -12,9 +12,7 @@ const MarketingReference = () => {
     const playVideo = () => {
       video.play()
         .catch(error => {
-          // Autoplay was prevented
           console.error('Autoplay prevented:', error);
-          // Handle the error, maybe show a play button
         });
     };
 

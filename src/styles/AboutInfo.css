@@ -1,0 +1,149 @@
+/* AboutInfo.css */
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    background: linear-gradient(172deg, #2a3e97 0%, #10c3eb 5%, #1e5983 59%, #10c3eb 99%, #09218f 100%);
+}
+
+.about__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
+}
+
+.about__content {
+    flex: 1;
+    padding-right: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.7s;
+}
+
+.about__content h6,
+.about__content h2,
+.about__content-desc,
+.choose__us-item {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+}
+
+.about__content h6 {
+    font-size: 16px;
+    color: #ff6f61;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    animation-delay: 1s;
+}
+
+.about__content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about__content .highlight {
+    color: #ff6f61;
+}
+
+.about__content-desc {
+    font-size: 19px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    animation-delay: 1.3s;
+}
+
+.choose__us-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    animation-delay: 1.5s;
+}
+
+.choose__us-icon {
+    font-size: 40px;
+    color: #ff6f61;
+    margin-right: 15px;
+}
+
+.choose__us-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.about__img {
+    flex: 1;
+    padding-left: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    animation-delay: 0.9s;
+}
+
+.about__img img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .about__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about__content, .about__img {
+        padding: 0;
+    }
+
+    .about__content {
+        margin-bottom: 30px;
+    }
+
+    .choose__us-item {
+        justify-content: center;
+    }
+
+    .choose__us-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .choose__us-title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}

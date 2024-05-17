@@ -1,0 +1,31 @@
+.content__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(172deg, #1e5983 0%, #254eb5 5%, #1e5983 59%, #0b63aa 99%, #1e5983 100%);
+    height: 150px;
+}
+
+.counter__item {
+    width: 25%;
+    text-align: center;
+}
+
+.counter__number, .counter__title {
+    background: linear-gradient(to right, rgb(3, 222, 204), rgb(2, 112, 149));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow with transparency */
+}
+
+
+.counter__number {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.counter__title {
+    font-size: 1.5rem;
+}
+

@@ -6,13 +6,13 @@ import MarketingService from "../components/MarketingService"
 import Footer from '../components/Footer';
 import HomeSlider from '../components/HomeSlider';
 import WebDev from '../components/WebDev';
+import Counter from '../components/Counter';
 
 const MainPage = () => {
   return (
     <div className="hero_Container">
-       <HomeSlider /> 
+      <HomeSlider /> 
       <MarketingService />
-     
     </div>
   );
 };

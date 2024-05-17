@@ -5,6 +5,9 @@ import Footer from './components/Footer';
 import MainPage from './pages/MainPage';
 import AboutPage from './pages/AboutPage';
 import ReferencePage from './pages/ReferencePage';
+import 'remixicon/fonts/remixicon.css';
+
+
 
 
 
