@@ -9,7 +9,6 @@ const AboutPage = () => {
   return (
     <div>
       <AboutInfo />
-      
       <AboutPhoto />
       <AboutUs />
     </div>

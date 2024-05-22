@@ -1,49 +1,52 @@
-.aboutContainer {
-    background: linear-gradient(172deg, #2a3e97 0%, #10c3eb 5%, #1e5983 59%, #10c3eb 99%, #09218f 100%);
-    border-top: 1px solid black;
-    padding-top: 10%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .aboutContainer.fadeIn {
-    opacity: 1;
-  }
-  
-  .text_Paraf {
-    opacity: 0;
-    transition: opacity 1s ease;
-  }
-  
-  .text_Paraf.fadeIn {
-    opacity: 1;
-  }
-  .tParaf {
-    margin: 10px 0; 
+/* AboutUs.css */
+
+.container_About {
+  margin: 0 auto;
+}
+
+.about-us__content {
+  background: rgba(24, 22, 22, 0.9);
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(172deg, #2a3e97 0%, #10c3eb 5%, #1e5983 59%, #10c3eb 99%, #09218f 100%);
+}
+
+.about-us__content p {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.6;
+}
+
+.about-us__cta {
+  margin-top: 20px;
+}
+
+.about-us__cta button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.about-us__cta button:hover {
+  background-color: #e65c50;
+}
+
+@media (max-width: 768px) {
+  .about-us__content {
+    padding: 20px;
   }
 
-  .aboutContainer h1 {
-    text-align: center;
+  .about-us__content p {
+    font-size: 16px;
   }
-  
-  
-  .text_Paraf:nth-child(1) {
-    animation-delay: 0.1s;
+
+  .about-us__cta button {
+    padding: 12px 24px;
   }
-  
-  .text_Paraf:nth-child(2) {
-    animation-delay: 0.3s;
-  }
-  
-  .text_Paraf:nth-child(3) {
-    animation-delay: 0.5s;
-  }
-  
-  .text_Paraf:nth-child(4) {
-    animation-delay: 0.7s;
-  }
-  
-  .text_Paraf:nth-child(5) {
-    animation-delay: 0.9s;
-  }
-  
+}

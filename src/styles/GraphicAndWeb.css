@@ -1,0 +1,50 @@
+/* GraphicAndWeb.css */
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    background: linear-gradient(172deg, #2a3e97 0%, #10c3eb 5%, #1e5983 59%, #10c3eb 99%, #09218f 100%);
+    text-align: center; /* Postavljanje teksta u sredinu */
+}
+
+.graphicAndWeb__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    flex-wrap: wrap; /* Omogućuje omotavanje elemenata na manjim ekranima */
+}
+
+.graphicAndWeb__content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left; /* Poravnavanje teksta u lijevo unutar wrappera */
+    margin-bottom: 20px; /* Dodajemo razmak ispod sadržaja */
+}
+
+.graphicAndWeb__img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.graphicAndWeb__img img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    padding-top: 20px;
+    max-height: 350px;
+    width: 100%; 
+    max-width: 450px;
+}
+
+@media (max-width: 768px) {
+    .graphicAndWeb__content,
+    .graphicAndWeb__img {
+        flex: 100%; 
+        flex-direction: column;
+        padding: 0 10px; 
+    }
+}
