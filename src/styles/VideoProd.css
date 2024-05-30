@@ -32,8 +32,8 @@
     background: rgba(0, 0, 0, 0.6); 
     padding: 20px;
     border-radius: 10px;
-    max-width: 80%; /* Added max-width for text content */
-    margin: 0 auto; /* Centering the content */
+    max-width: 80%; 
+    margin: 0 auto; 
   }
   
   .video-prod-title {
@@ -50,20 +50,20 @@
   
   .video-prod-item {
     display: flex;
-    align-items: flex-start; /* Align icons with the top of the text */
+    align-items: flex-start; 
     gap: 10px;
   }
   
   .video-prod-icon {
     font-size: 2em;
     color: #FFD700; 
-    flex-shrink: 0; /* Prevent the icon from shrinking */
+    flex-shrink: 0; 
   }
   
   .video-prod-text {
     font-size: 1.2em;
     font-weight: bold; 
-    max-width: 80%; /* Added max-width to limit text width */
-    margin: 0; /* Remove default margin */
+    max-width: 80%; 
+    margin: 0; 
   }
   
