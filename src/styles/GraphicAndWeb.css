@@ -1,9 +1,11 @@
-/* GraphicAndWeb.css */
-.container {
+.container_Graph {
     margin: 0 auto;
     padding: 0 15px;
     background: linear-gradient(172deg, #2a3e97 0%, #10c3eb 5%, #1e5983 59%, #10c3eb 99%, #09218f 100%);
-    text-align: center; /* Postavljanje teksta u sredinu */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .graphicAndWeb__wrapper {
@@ -11,14 +13,14 @@
     align-items: center;
     justify-content: center;
     padding: 50px 0;
-    flex-wrap: wrap; /* Omogućuje omotavanje elemenata na manjim ekranima */
+    flex-wrap: wrap; 
 }
 
 .graphicAndWeb__content {
     flex: 1;
     padding: 0 20px;
-    text-align: left; /* Poravnavanje teksta u lijevo unutar wrappera */
-    margin-bottom: 20px; /* Dodajemo razmak ispod sadržaja */
+    text-align: left; 
+    margin-bottom: 20px; 
 }
 
 .graphicAndWeb__img {

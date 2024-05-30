@@ -25,7 +25,7 @@ const chooseData = [
 const GraphicAndWebInfo = () => {
     return (
         <section id='graphicAndWeb'>
-            <div className="container">
+            <div className="container_Graph">
                 <div className="graphicAndWeb__wrapper">
                     <div className="graphicAndWeb__content">
                         <h6>Why choose us?</h6>
@@ -48,7 +48,7 @@ const GraphicAndWebInfo = () => {
                             ))}
                         </div>
                     </div>
-                    <ServicesSlider />
+                   
                 </div>
             </div>
         </section>

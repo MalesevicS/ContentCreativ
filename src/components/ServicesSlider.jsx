@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "../styles/AboutPhoto.css";
+import "../styles/ServicesSlider.css";
 import backgroundPic from "../images/socialBanner2.jpg";
 import backgroundPicTwo from "../images/VideoEdit.jpg";
 
