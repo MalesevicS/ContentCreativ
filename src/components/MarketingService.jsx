@@ -38,19 +38,12 @@ const serviceData = [
 ];
 
 const MarketingService = () => {
-  const refP = useRef(0);
-
-  const scrollToTop = () => {
-    if (refP.current) {
-      refP.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
 
   return (
-    <div ref={refP} className="services">
+    <div className="services">
       <div className="service_item-wrapper">
         {serviceData.map((item, index) => (
-          <Link to={item.to} key={index} style={{ textDecoration: 'none' }} onClick={scrollToTop}>
+          <Link to={item.to} key={index} style={{ textDecoration: 'none' }} >
             <div className={`services__item ${item.className}`}>
               <img className='imgp' src={item.img} alt="" />
               <h3 className="services__title">{item.title}</h3>
