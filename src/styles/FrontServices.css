@@ -30,9 +30,11 @@
     font-size: 2rem;
 }
 
-.service__title {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
+.services__title {
+    font-weight: bold;
+    font-size: x-large;
+    padding-bottom: 30px;
+    color: black; /* Dodajte ovu liniju za crnu boju */
 }
 
 .service_item-wrapper {
@@ -67,6 +69,8 @@ p {
     padding-bottom: 5%;
     font-weight: 300;
     font-size: medium; 
+    color: black; 
+    font-weight: 500;
 }
 
 
