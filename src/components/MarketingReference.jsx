@@ -24,7 +24,7 @@ const MarketingReference = () => {
   }, []);
 
   return (
-    <div className='marketing__container'>
+    <div id="marketing-reference" className='marketing__container'>
       <video ref={videoRef} autoPlay loop muted playsInline className='background__video'>
         <source src={backgroundVideo} type='video/mp4' />
       </video>
