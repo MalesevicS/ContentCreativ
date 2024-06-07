@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "../styles/HomeSlider.css"
-import VideoEdit2 from "../images/VideoEdit2.jpg";
+import VideoEdit2 from "../images/Internet.jpg";
 import mainPhoto from "../images/mainPhoto.jpg"
 import graphDesign from "../images/graphDesign.jpg"
 

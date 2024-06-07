@@ -6,26 +6,24 @@ import MainPage from './pages/MainPage';
 import AboutPage from './pages/AboutPage';
 import ReferencePage from './pages/ReferencePage';
 import 'remixicon/fonts/remixicon.css';
-
-
-
-
+import './App.css'; 
 
 const App = () => {
   return (
     <Router>
       <div>
         <Header />
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/home" element={<MainPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/reference" element={<ReferencePage />} />
-        </Routes>
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/home" element={<MainPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/reference" element={<ReferencePage />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>
-    
   );
 };
 
