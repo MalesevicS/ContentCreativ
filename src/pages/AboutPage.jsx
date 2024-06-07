@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <div>
       <AboutInfo />
-      <AboutPhoto />
+      {/* <AboutPhoto /> */}
       <AboutUs />
     </div>
   )
