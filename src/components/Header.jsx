@@ -10,6 +10,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeNavbar = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className={`navbar ${isOpen ? 'expanded' : ''}`}>
       <div className="navbar-container">
@@ -19,9 +23,9 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
-          <Link to="/" >Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/reference">Services</Link>
+          <Link to="/" onClick={closeNavbar}>Home</Link>
+          <Link to="/about" onClick={closeNavbar}>About</Link>
+          <Link to="/reference" onClick={closeNavbar}>Services</Link>
         </div>
         <div className="navbar-toggle" onClick={toggleNavbar}>
           <span></span>
