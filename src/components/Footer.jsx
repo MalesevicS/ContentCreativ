@@ -1,8 +1,7 @@
 import React from 'react';
-import "../styles/Footer.css"
+import "../styles/Footer.css";
 
 function Footer() {
-
   const phoneNumber = "+38163339318";
 
   const handleCallPhoneNumber = () => {
@@ -14,21 +13,21 @@ function Footer() {
   };
 
   return (
-    <div className='footer'>
-      <div className='section'>
-        <p>Copyright Content Creativ  ©2024. All rights reserved.Unauthorized copying,  downloading and use of content from the site is sanctioned in accordance with the Law.
-        </p>
+    <footer className='footer'>
+      <div className='footer-content'>
+        <div className='footer-section about'>
+          <h2>Content Creativ</h2>
+          <p>&copy; 2024 Content Creativ. All rights reserved. Unauthorized copying, downloading, and use of content from the site is sanctioned in accordance with the Law.</p>
+        </div>
+        <div className='footer-section contact'>
+          <h2>Contact Us</h2>
+          <p><strong>Name:</strong><span className='footer-link' > Content Creativ</span></p>
+          <p><strong>Email:</strong><span className='footer-link' > office@contentcreativ.com</span></p>
+          <p><strong>Phone:</strong> <span className='footer-link' onClick={handleCallPhoneNumber}>{phoneNumber}</span></p>
+          <p><strong>Address:</strong> <span className='footer-link' onClick={openGoogleMaps}>Obilicev venac 18, Belgrade, Republic of Serbia</span></p>
+        </div>
       </div>
-      <div className='section sectionTwo'>
-        <h3>Contact Us</h3>
-        <p><span className='footerText'>Name</span>: Content Creativ@</p>
-        <p><span className='footerText'>Email</span>: office@contentcreativ.com</p>
-        <p><span className='footerText'>Phone</span>: <span className='footerText' onClick={handleCallPhoneNumber} style={{ cursor: 'pointer' }}>{phoneNumber}</span> </p>
-        <a  href="https://www.google.com/maps/search/?api=1&query=Obilicev+venac+18,+Belgrade,+Republic+of+Serbia">
-        <p><span className='footerText'>Address</span>: <span className='footerText' onClick={openGoogleMaps} style={{ cursor: 'pointer' }}>Obilicev venac 18, Belgrade, Republic of Serbia</span></p>
-        </a>
-      </div>
-    </div>
+    </footer>
   );
 }
 

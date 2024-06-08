@@ -1,7 +1,6 @@
 import React from 'react'
 import "../styles/HomePageMarking.css"
-
-import backgroundPic from "../images/hb4.jpg";
+import backgroundPic from "../images/social.png";
 
 const HomePageMarking = () => {
   return (
