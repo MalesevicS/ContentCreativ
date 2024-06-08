@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import "../styles/HomeSlider.css"
-import VideoEdit2 from "../images/Internet.jpg";
-import mainPhoto from "../images/mainPhoto.jpg"
-import graphDesign from "../images/graphDesign.jpg"
+import "../styles/HomeSlider.css";
+import mainPhoto from "../images/Internet.jpg";
+import VideoEdit2 from "../images/mainPhoto.jpg";
+import graphDesign from "../images/VideoEdit2.jpg";
 
 const HomeSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const slides = [
-    mainPhoto,
-    VideoEdit2,
-    graphDesign
-  ];
+  const slides = [mainPhoto, VideoEdit2, graphDesign];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -37,8 +33,9 @@ const HomeSlider = () => {
         <div
           key={index}
           className={index === currentSlide ? 'slide active' : 'slide'}
-          style={{ backgroundImage: `url(${slide})` }}
-        />
+        >
+          <img src={slide} alt={`Slide ${index + 1}`} className="slide-image" />
+        </div>
       ))}
       <div className="slider-dots">
         {slides.map((_, index) => (
