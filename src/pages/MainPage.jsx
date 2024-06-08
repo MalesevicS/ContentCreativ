@@ -7,12 +7,16 @@ import Footer from '../components/Footer';
 import HomeSlider from '../components/HomeSlider';
 import WebDev from '../components/WebDev';
 import Counter from '../components/Counter';
+import AboutUs from '../components/AboutUs';
+import HomePageMarking from '../components/HomePageMarking';
+
 
 const MainPage = () => {
   return (
     <div className="hero_Container">
       <HomeSlider /> 
       <MarketingService />
+      <HomePageMarking />
     </div>
   );
 };
