@@ -9,14 +9,14 @@ import WebDev from '../components/WebDev';
 import Counter from '../components/Counter';
 import AboutUs from '../components/AboutUs';
 import HomePageMarking from '../components/HomePageMarking';
+import HomeFirst from '../components/HomeFirst';
 
 
 const MainPage = () => {
   return (
     <div className="hero_Container">
-      <HomeSlider /> 
+      <HomeFirst />
       <MarketingService />
-      <HomePageMarking />
     </div>
   );
 };

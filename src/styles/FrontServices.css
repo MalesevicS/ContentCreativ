@@ -3,16 +3,42 @@
     box-sizing: border-box; 
 }
 
+.services {
+    width: 100%;
+    height: 893px;
+    top: 985px;
+    gap: 0px;
+    opacity: 0px;
+    background: #1C344D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.serviceHeader {
+    width: 214px;
+    height: 50px;
+    top: 116px;
+    left: 765px;
+    gap: 0px;
+    opacity: 0px;
+    color: #C6E070;
+    padding-bottom: 200px;
+}
 
 .services__item {
+    height: 404px;
+    width: 336px;
     width: 100%; 
     padding: 30px 15px;
     text-align: center;
-    border-radius: .5rem;
+    border-radius: 25px;
     cursor: pointer;
     height: auto; 
     margin-bottom: 20px;
+    background: #FBFDF7;
+
 }
 
 .service__icon {
@@ -34,7 +60,7 @@
     font-weight: bold;
     font-size: x-large;
     padding-bottom: 30px;
-    color: black; /* Dodajte ovu liniju za crnu boju */
+    color: black; 
 }
 
 .service_item-wrapper {
@@ -42,60 +68,64 @@
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    background: linear-gradient(172deg, #2a3e97 0%, #9fe8f8 5%, #1e5983 59%, #0b63aa 99%, #09218f 100%);
+    width: 1515px;
+    height: 404px;
 
 }
 
 .imgp {
-    height: 200px; 
+    height: 0px; 
     width: 300px;
     border-radius: 10%;
     animation: slideInFromLeft 2.5s ease-in-out forwards;
+    width: 288px;
+    height: 146px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+
 }
 
 .services__title {
     font-weight: bold;
     font-size: x-large;
     padding-bottom: 30px;
+    font-size: 32px;
+    color: #0187A0;
 }
 
-h6 {
-    padding: 2%;
-    font-size: 20px;
-}
-
-p {
-    padding: 5px;
-    padding-bottom: 5%;
-    font-weight: 300;
-    font-size: medium; 
-    color: black; 
-    font-weight: 500;
+.item_det {
+    height: 200px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 
-
-button {
-    padding: 15px;
-    border-radius: 10%;
-    font-weight: 300;
-    border: 2px solid black;
-    font-size: medium; 
-    height: auto;
+.serBtn {
+    position: absolute;
+    border-radius: 50px;
+    height: 48px;
+    width: 175px;
+    top: 170px;
+    left: 10px;
+    color: #0187A0;
+    border-color:#0187A0;
 }
 
-h1 {
-    font-size: 40px; 
-}
-.services {
-    background: linear-gradient(to top, #57ACAA, #92A2BB);
+.arrowService {
+    position: absolute;
+    top: 175px;
+    left: 220px;
+    padding: 10px;
+    color: #0187A0;
+    border-radius: 50px;
+    border-color:#0187A0;
 }
 
-button:hover {
-    transform: translateY(-1px);
-    color: brown;
-    cursor: pointer;
-}
 
 @keyframes slideInFromLeft {
     0% {

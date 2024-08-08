@@ -1,5 +1,7 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import "../styles/FrontServices.css";
 import pic from "../images/socialMedia.jpg";
 import seo from "../images/seo.jpg";
@@ -38,17 +40,21 @@ const serviceData = [
 ];
 
 const MarketingService = () => {
-
   return (
     <div className="services">
+      <h1 className='serviceHeader'>SERVICES</h1>
       <div className="service_item-wrapper">
         {serviceData.map((item, index) => (
           <Link to={item.to} key={index} style={{ textDecoration: 'none' }} >
             <div className={`services__item ${item.className}`}>
-              <img className='imgp' src={item.img} alt="" />
-              <h3 className="services__title">{item.title}</h3>
-              <p>{item.desc}</p>
-              <button>More info</button>
+              <img className='imgp' src={item.img} alt={item.title} />
+              <div className='item_det'>
+                <h3 className="services__title">{item.title}</h3>
+                <button className='serBtn'>see more</button>
+                <div className="arrowService">
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </div>
+              </div>
             </div>
           </Link>
         ))}

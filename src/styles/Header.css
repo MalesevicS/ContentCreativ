@@ -1,10 +1,11 @@
 .navbar {
-  background: linear-gradient(172deg, #2a3e97 0%, #10c3eb 5%, #1e5983 59%, #10c3eb 99%, #09218f 100%);
+  background: #0187A0;
   color: #fff;
   position: fixed;
   width: 100%;
   z-index: 1000;
-  height: 100px;
+  width: 1728px;
+  height: 135px;
   transition: height 0.3s ease;
 }
 
@@ -14,9 +15,9 @@
 
 .navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 0 20px;
   height: 100%; 
@@ -31,7 +32,13 @@
 }
 
 .logo img {
-  width: 100px;
+  width: 64px;
+  height: 72px;
+  top: 28px;
+  left: 47px;
+  gap: 0px;
+  opacity: 0px;
+
 }
 
 .navbar-logo {
