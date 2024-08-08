@@ -10,6 +10,7 @@ import Counter from '../components/Counter';
 import AboutUs from '../components/AboutUs';
 import HomePageMarking from '../components/HomePageMarking';
 import HomeFirst from '../components/HomeFirst';
+import JoinContent from '../components/JoinContent';
 
 
 const MainPage = () => {
@@ -17,6 +18,7 @@ const MainPage = () => {
     <div className="hero_Container">
       <HomeFirst />
       <MarketingService />
+      <JoinContent />
     </div>
   );
 };
