@@ -1,0 +1,64 @@
+.WebDesignAgency_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.wdaMain {
+    width: 1479px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1F2F2;
+}
+
+.wdaPic {
+    width: 506px;
+    height: 462px;
+    border-radius: 30px;
+    margin-left: 70px;
+}
+
+.wda_info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.wda_info h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #1C344D;
+}
+
+
+.wda_info p {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.wdaBtn {
+    width: 175px;
+    height: 48px;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin-top: 40px;
+    background: #C6E070;
+}

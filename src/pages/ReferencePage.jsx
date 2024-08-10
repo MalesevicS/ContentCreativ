@@ -3,6 +3,11 @@ import MarketingReference from '../components/MarketingReference';
 import WebDev from '../components/WebDev';
 import GraphicAndWeb from '../components/GraphicAndWeb';
 import VideoProd from '../components/VideoProd';
+import ServicesPic from '../components/ServicesPic';
+import SocialMediaMarketing from '../components/SocialMediaMarketing';
+import VideoProdVoiceOver from '../components/VideoProdVoiceOver';
+import JoinContent from '../components/JoinContent';
+import WebDesignAgency from '../components/WebDesignAgency';
 
 const ReferencePage = () => {
   useEffect(() => {
@@ -18,17 +23,18 @@ const ReferencePage = () => {
   return (
     <div>
       <div id="marketing-reference">
-        <MarketingReference />
+       <ServicesPic />
       </div>
       <div id="video-prod">
-        <VideoProd />
+        <SocialMediaMarketing />
       </div>
       <div id="graphic-web">
-        <GraphicAndWeb />
+        <VideoProdVoiceOver />
       </div>
       <div id="web-dev">
-        <WebDev />
+        <WebDesignAgency />
       </div>
+      <JoinContent />
     </div>
   );
 }
