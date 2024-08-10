@@ -1,59 +1,97 @@
 .footer {
-  background: linear-gradient(172deg, #2a3e97 0%, #10c3eb 5%, #1e5983 59%, #10c3eb 99%, #09218f 100%);
-  color: #fff;
+  width: 100%;
+  height: 500px;
+  background-color: #1C344D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 40px 20px;
+  gap: 40px;
+}
+
+.footerWrapper {
+  width: 90%;
+  height: 500px;
+  background-color: #1C344D;
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.logoFooter {
+  height: 67px;
+  width: 67px;
+}
+
+.copyF {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  color: #C6E070;
 }
 
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.copyPf {
+  margin-top: 20px;
+}
+
+.logoF,
+.links,
+.socialF {
   width: 100%;
-  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-section {
-  flex: 1;
-  margin: 20px;
-  min-width: 250px;
+.links {
+  flex-direction: column;
+  gap: 15px;
 }
 
-.footer-section h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.footer-section p {
-  font-size: 16px;
-  line-height: 1.6;
-  margin: 10px 0;
-}
-
-.footer-section p strong {
-  color: black;
-}
-
-.footer-link {
+.links a {
   color: white;
-  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.footer-link:hover {
-  text-decoration: underline;
+.links a:hover {
+  color: #88c3ea;
 }
 
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-  }
+.socialF {
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .footer-section {
-    margin: 10px 0;
-  }
+.socialF a {
+ color: white;
+}
+
+.socIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.socIcons a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socIcons a svg {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.socIcons a:hover {
+  color: #ddd;
+}
+
+.socIcon {
+  margin-right: 10px;
 }

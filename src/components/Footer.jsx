@@ -1,5 +1,9 @@
 import React from 'react';
 import "../styles/Footer.css";
+import logoPic from "../images/logo.png";
+import { Link } from 'react-router-dom';
+import { FaEnvelope, FaPhone, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+
 
 function Footer() {
   const phoneNumber = "+38163339318";
@@ -13,21 +17,40 @@ function Footer() {
   };
 
   return (
-    <footer className='footer'>
-      <div className='footer-content'>
-        <div className='footer-section about'>
-          <h2>Content Creativ</h2>
-          <p>&copy; 2024 Content Creativ. All rights reserved. Unauthorized copying, downloading, and use of content from the site is sanctioned in accordance with the Law.</p>
+    <div className='footer'>
+      <div className="footerWrapper">
+      <div className='logoF'>
+        <img className='logoFooter' src={logoPic} alt="logoFooter" />
+      </div>
+      <div className="copyF">
+        <div className="copyH">
+          <h2> Copyright Content Creativ©2023.</h2>
         </div>
-        <div className='footer-section contact'>
-          <h2>Contact Us</h2>
-          <p><strong>Name:</strong><span className='footer-link' > Content Creativ</span></p>
-          <p><strong>Email:</strong><span className='footer-link' > office@contentcreativ.com</span></p>
-          <p><strong>Phone:</strong> <span className='footer-link' onClick={handleCallPhoneNumber}>{phoneNumber}</span></p>
-          <p><strong>Address:</strong> <span className='footer-link' onClick={openGoogleMaps}>Obilicev venac 18, Belgrade, Republic of Serbia</span></p>
+        <div className="copyP">
+          <p className='copyPf'>
+            All rights reserved. Unauthorized copying, downloading and use of 
+            content from the site is sanctioned in accordance with the Law.
+          </p>
         </div>
       </div>
-    </footer>
+      <div className="links">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/reference">Services</Link>
+      </div>
+      <div className="socialF">
+        <a href="mailto:your-email@example.com"><FaEnvelope className='socIcon' />contentcreativ@mail.com</a>
+        <a href={`tel:${phoneNumber}`}><FaPhone className='socIcon' />+3810532153215</a>
+        <div className="socIcons">
+        <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+        </div>
+      </div>
+      </div>
+
+
+    </div>
   );
 }
 

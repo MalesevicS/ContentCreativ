@@ -1,97 +1,36 @@
-.about-us {
-  position: relative;
-  text-align: center;
-  color: white;
-  overflow: hidden;
-}
-
-.about-us__background {
-  position: absolute;
-  top: 0;
-  left: 0;
+.about_info {
   width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
-
-.about-us__background img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  opacity: 0.7;
-}
-
-.about-us__overlay {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 50px 0;
+  height: 505px;
+  gap: 0px;
+  opacity: 0px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  background: #1C344D;
 }
 
-.container_About {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: left;
-  background: rgba(24, 22, 22, 0.8);
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease-in-out;
+.about_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
 }
 
-.container_About:hover {
-  transform: scale(1.05);
+.about_text h1 {
+  color: #C6E070;
+  margin-bottom: 5%;
+  
 }
 
-.about-us__content p {
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.about-us__cta {
-  margin-top: 30px;
+.about_text p {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: 0.10000000149011612px;
   text-align: center;
-}
-
-.about-us__cta button {
-  background-color: #ff6f61;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  font-size: 18px;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.about-us__cta button:hover {
-  background-color: #e65c50;
-  transform: translateY(-2px);
-}
-
-@media (max-width: 768px) {
-  .about-us__overlay {
-    padding: 30px 0;
-  }
-
-  .container_About {
-    padding: 30px;
-  }
-
-  .about-us__content p {
-    font-size: 16px;
-  }
-
-  .about-us__cta button {
-    padding: 12px 24px;
-    font-size: 16px;
-  }
+  color: white;
 }

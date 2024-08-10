@@ -3,6 +3,7 @@
     display: flex;
     position: relative;
     height: 893px;
+    width: 100%;
 }
 
 .hfLeft {

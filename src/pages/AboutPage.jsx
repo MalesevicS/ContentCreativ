@@ -1,16 +1,15 @@
 import React from 'react'
-import OurPhilosophy from '../components/OurPhilosophy'
 import AboutUs from '../components/AboutUs'
-import AboutPhoto from '../components/AboutPhoto'
-import AboutInfo from '../components/AboutInfo'
+import AboutPicture from '../components/AboutPicture'
+import JoinContent from '../components/JoinContent.jsx'
 
 
 const AboutPage = () => {
   return (
     <div>
-      <AboutInfo />
-      {/* <AboutPhoto /> */}
+      <AboutPicture />
       <AboutUs />
+      <JoinContent />
     </div>
   )
 }
