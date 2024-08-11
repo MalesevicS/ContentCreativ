@@ -49,8 +49,7 @@
     background: var(--icon-bg); 
     margin-bottom: 30px;
 }
-
-.service__icon i {
+ervice__icon i {
     font-size: 2rem;
 }
 

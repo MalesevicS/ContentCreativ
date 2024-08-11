@@ -3,31 +3,37 @@
     justify-content: center;
     align-items: center;
     margin: 50px 0;
+    padding: 20px;
 }
 
 .wdaMain {
-    width: 1479px;
-    height: 850px;
+    width: 100%;
+    max-width: 1479px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F1F2F2;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .wdaPic {
-    width: 506px;
-    height: 462px;
+    width: 100%;
+    max-width: 506px;
+    height: auto;
     border-radius: 30px;
-    margin-left: 70px;
+    margin-left: 20px;
 }
 
 .wda_info {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    padding-left: 50px;
-    width: 60%;
-    margin-left: 100px;
+    justify-content: center;
+    padding-left: 20px;
+    width: 100%;
+    max-width: 60%;
+    margin-left: 20px;
 }
 
 .wda_info h2 {
@@ -37,16 +43,16 @@
     line-height: 40px;
     text-align: left;
     color: #1C344D;
+    margin-bottom: 20px;
 }
-
 
 .wda_info p {
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 40px;
     text-align: left;
-
+    margin: 0;
 }
 
 .wdaBtn {
@@ -57,8 +63,71 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0.10000000149011612px;
+    letter-spacing: 0.1px;
     text-align: center;
     margin-top: 40px;
     background: #C6E070;
+}
+
+/* Media Queries for Tablet and Mobile */
+@media (max-width: 768px) {
+    .wdaPic {
+        width: 100%;
+        max-width: 400px;
+        margin-left: 0;
+    }
+
+    .wda_info {
+        width: 100%;
+        max-width: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .wda_info h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .wda_info p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .wdaBtn {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wdaPic {
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+       
+    }
+
+    .wda_info {
+        width: 100%;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+
+    .wda_info h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .wda_info p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .wdaBtn {
+        width: 120px;
+        height: 36px;
+        font-size: 12px;
+    }
 }

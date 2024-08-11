@@ -5,9 +5,9 @@ import videoProdImg from "../images/videoprod.jpeg"
 const VideoProdVoiceOver = () => {
     return (
         <div className='VideoProdVoiceOver_container'>
-            <div className="socialSq">
-                <div className="socialImg_container">
-                    <img className='socialImg' src={videoProdImg} alt="socialImg" />
+            <div className="videoSq">
+                <div className="videoImg_container">
+                    <img className='videoImg' src={videoProdImg} alt="socialImg" />
                 </div>
             <div className="VideoProdVoiceOver_text">
                 <h2>
