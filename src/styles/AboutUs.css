@@ -34,3 +34,62 @@
   text-align: center;
   color: white;
 }
+
+.about_info {
+  width: 100%;
+  height: 505px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1C344D;
+}
+
+.about_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+}
+
+.about_text h1 {
+  color: #C6E070;
+  margin-bottom: 5%;
+}
+
+.about_text p {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .about_text {
+    width: 85%;
+  }
+
+  .about_text p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about_text {
+    width: 90%;
+  }
+
+  .about_text h1 {
+    font-size: 24px;
+  }
+
+  .about_text p {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+}

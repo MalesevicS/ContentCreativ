@@ -112,6 +112,11 @@
     justify-content: center;
     width: 48px;
     height: 48px;
+    margin-left: 10px;
+}
+.btnIcon {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 776px) {

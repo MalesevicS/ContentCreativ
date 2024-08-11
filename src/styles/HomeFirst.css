@@ -99,3 +99,87 @@
     opacity: 0px;
     z-index: 3;
 }
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .hfContainer {
+        background-color: white;
+        display: flex;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+    .hfLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-left: 100px;
+        position: absolute;
+        top: 130px;
+        padding-left: 50px;
+    }
+    
+
+    .hfHeader {
+        font-size: 32px;
+        line-height: 38px;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .hfParaf {
+        font-size: 20px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .hfBtn {
+        width: 220px;
+        height: 40px;
+    }
+
+    .firstSq {
+        position: absolute;
+        width: 325px;
+        height: 190px;
+        top: 647px;
+        left: 45px;
+        gap: 0px;
+        border-radius: 30px;
+        border: 2px solid #0187A0;
+        opacity: 0px;
+        z-index: 1;
+        left: 35;
+    }
+    
+    .secondSq {
+        position: absolute;
+        width: 273px;
+        height: 217px;
+        top: 605px;
+        left: 55px;
+        gap: 0px;
+        border-radius: 30px;
+        opacity: 0px;
+        background: #91C46C96;
+        z-index: 2;
+    }
+    
+    .thridSq {
+        position: absolute;
+        width: 310px;
+        height: 215px;
+        top: 593px;
+        left: 76px;
+        gap: 0px;
+        border-radius: 13px 0px 0px 0px;
+        opacity: 0px;
+        z-index: 3;
+    }
+    
+}

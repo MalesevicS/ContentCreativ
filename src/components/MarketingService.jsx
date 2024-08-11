@@ -50,9 +50,11 @@ const MarketingService = () => {
               <img className='imgp' src={item.img} alt={item.title} />
               <div className='item_det'>
                 <h3 className="services__title">{item.title}</h3>
+                <div className="btnIcon">
                 <button className='serBtn'>see more</button>
                 <div className="arrowService">
                   <FontAwesomeIcon icon={faArrowRight} />
+                </div>
                 </div>
               </div>
             </div>
