@@ -27,6 +27,7 @@ const Navbar = () => {
           <Link to="/about" onClick={closeNavbar}>About</Link>
           <Link to="/reference" onClick={closeNavbar}>Services</Link>
         </div>
+        <div className="contact_header">Contact</div>
         <div className="navbar-toggle" onClick={toggleNavbar}>
           <span></span>
           <span></span>
