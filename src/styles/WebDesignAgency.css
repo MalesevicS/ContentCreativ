@@ -69,7 +69,6 @@
     background: #C6E070;
 }
 
-/* Media Queries for Tablet and Mobile */
 @media (max-width: 768px) {
     .wdaPic {
         width: 100%;

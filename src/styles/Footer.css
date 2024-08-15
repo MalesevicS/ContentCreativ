@@ -1,17 +1,16 @@
 .footer {
   width: 100%;
-  height: 500px;
   background-color: #1C344D;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
   gap: 40px;
+  position: relative;
 }
 
 .footerWrapper {
-  width: 90%;
-  height: 500px;
+  width: 95%;
   background-color: #1C344D;
   display: flex;
   align-items: center;
@@ -22,14 +21,21 @@
 .logoFooter {
   height: 67px;
   width: 67px;
+  position: absolute;
+  top: 60px;
+  left: 80px;
 }
 
 .copyF {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #C6E070;
+  top: 50px;
+  left: 200px;
+  width: 350px;
 }
 
 .copyPf {
@@ -66,7 +72,7 @@
 }
 
 .socialF a {
- color: white;
+  color: white;
 }
 
 .socIcons {
@@ -94,4 +100,86 @@
 
 .socIcon {
   margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  .footerWrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    position: static;
+  }
+
+  .logoFooter, 
+  .copyF {
+    position: static;
+    margin: 0 auto;
+  }
+
+  .copyF {
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .logoF, 
+  .links, 
+  .socialF {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .socIcons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerWrapper {
+    padding: 20px 10px;
+  }
+
+  .logoFooter {
+    height: 50px;
+    width: 50px;
+  }
+
+  .links a {
+    font-size: 14px;
+  }
+
+  .socIcons a svg {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+
+  .copyPf {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerWrapper {
+    padding: 20px 5px;
+  }
+
+  .socialF, 
+  .links, 
+  .socIcons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .logoFooter,
+  .copyF {
+    margin-bottom: 20px;
+  }
 }
