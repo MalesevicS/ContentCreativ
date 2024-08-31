@@ -1,8 +1,6 @@
 .about_info {
   width: 100%;
   height: 505px;
-  gap: 0px;
-  opacity: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;

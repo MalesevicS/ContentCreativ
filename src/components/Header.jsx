@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className={`logo ${isOpen ? 'hidden' : ''}`}>
           <Link to="/" className="navbar-logo">
-            <img src={logo} alt="Logo" />
+          <img className='logoPic' src={logo} alt="#" />
           </Link>
         </div>
         <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
@@ -28,10 +28,11 @@ const Navbar = () => {
           <Link to="/reference" onClick={closeNavbar}>Services</Link>
         </div>
         <div className="contact_header">Contact</div>
+        
         <div className="navbar-toggle" onClick={toggleNavbar}>
           <span></span>
           <span></span>
-          <span></span>
+          <span></span> 
         </div>
       </div>
     </nav>

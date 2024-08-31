@@ -7,6 +7,7 @@
   width: 100%;
   height: 135px;
   transition: height 0.3s ease;
+  position: relative;
 }
 
 .navbar.expanded {
@@ -32,14 +33,10 @@
   opacity: 0;
 }
 
-.logo img {
-  width: 64px;
-  height: 72px;
-  top: 28px;
-  left: 47px;
-  gap: 0px;
-  opacity: 0px;
-
+.logoPic {
+  margin: 5px;
+  height: 64px;
+  width: 72px; 
 }
 
 .navbar-logo {
@@ -48,6 +45,7 @@
   position: absolute;
   left: 20px;
   top: 30px;
+  height: 200px;
 }
 
 .navbar-links {
@@ -63,7 +61,8 @@
 .navbar-links.active {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
+  margin-left: 37px;
 }
 
 .navbar-links a {
@@ -95,11 +94,10 @@
   height: 36px;
   border-radius: 50px;
   border: 1px solid #C6E070;
-  opacity: 0px;
-
 }
 .navbar.expanded .navbar-toggle {
   top: 100px; 
+  margin-left: 10px;
 }
 
 
@@ -117,6 +115,7 @@
   
   .logo img {
     width: 70px;
+    height: 70px;
   }
 
   .navbar-links {
@@ -139,3 +138,4 @@
     left: 300px;
   }
 }
+

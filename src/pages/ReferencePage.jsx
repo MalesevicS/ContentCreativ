@@ -1,8 +1,4 @@
 import React, { useEffect } from 'react';
-import MarketingReference from '../components/MarketingReference';
-import WebDev from '../components/WebDev';
-import GraphicAndWeb from '../components/GraphicAndWeb';
-import VideoProd from '../components/VideoProd';
 import ServicesPic from '../components/ServicesPic';
 import SocialMediaMarketing from '../components/SocialMediaMarketing';
 import VideoProdVoiceOver from '../components/VideoProdVoiceOver';
