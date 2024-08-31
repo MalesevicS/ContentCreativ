@@ -7,11 +7,13 @@
 }
 
 .hfLeft {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 27%;
     padding-left: 100px;
+    top: 100px;
 }
 
 .hfRight {
@@ -65,7 +67,7 @@
     position: absolute;
     width: 645px;
     height: 440px;
-    top: 297px;
+    top: 147px;
     left: 739px;
     gap: 0px;
     border-radius: 30px;
@@ -79,7 +81,7 @@
     position: absolute;
     width: 733px;
     height: 487px;
-    top: 221px;
+    top: 71px;
     left: 782px;
     gap: 0px;
     border-radius: 30px;
@@ -92,7 +94,7 @@
     position: absolute;
     width: 758px;
     height: 485px;
-    top: 193px;
+    top: 43px;
     left: 826px;
     gap: 0px;
     border-radius: 13px 0px 0px 0px;
@@ -196,7 +198,7 @@
         width: 100%;
         padding-left: 100px;
         position: absolute;
-        top: 130px;
+        top: 40px;
         padding-left: 50px;
     }
     
@@ -223,7 +225,7 @@
         position: absolute;
         width: 325px;
         height: 190px;
-        top: 647px;
+        top: 547px;
         left: 32px;
         gap: 0px;
         border-radius: 30px;
@@ -237,7 +239,7 @@
         position: absolute;
         width: 273px;
         height: 217px;
-        top: 605px;
+        top: 515px;
         left: 42px;
         gap: 0px;
         border-radius: 30px;
@@ -250,7 +252,7 @@
         position: absolute;
         width: 310px;
         height: 215px;
-        top: 593px;
+        top: 503px;
         left: 63px;
         gap: 0px;
         border-radius: 13px 0px 0px 0px;
