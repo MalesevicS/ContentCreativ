@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    position: relative;
 }
 
 .serviceHeader {
@@ -23,6 +24,7 @@
 }
 
 .services__item {
+    height: 500px;
     background: #FBFDF7;
     border-radius: 25px;
     padding: 20px;
@@ -39,19 +41,6 @@
     transform: scale(1.05);
 }
 
-.service__icon {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    background: var(--icon-bg); 
-    margin-bottom: 30px;
-}
-ervice__icon i {
-    font-size: 2rem;
-}
 
 .services__title {
     font-weight: bold;
@@ -68,12 +57,13 @@ ervice__icon i {
     width: 100%;
     max-width: 1515px;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .imgp {
-    width: 100%;
+    width: 400px;
     max-width: 300px;
-    height: auto;
+    height: 200px;
     border-radius: 15px;
     animation: slideInFromLeft 2.5s ease-in-out forwards;
     opacity: 1;
@@ -97,7 +87,9 @@ ervice__icon i {
     color: #0187A0;
     border: 2px solid #0187A0;
     background-color: transparent;
-    margin-top: 10px;
+    position: absolute;
+    top: 170px;
+    left: 10px;
 }
 
 .arrowService {
@@ -112,6 +104,10 @@ ervice__icon i {
     width: 48px;
     height: 48px;
     margin-left: 10px;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    
 }
 .btnIcon {
     display: flex;
