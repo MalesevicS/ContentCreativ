@@ -4,6 +4,7 @@ import SocialMediaMarketing from '../components/SocialMediaMarketing';
 import VideoProdVoiceOver from '../components/VideoProdVoiceOver';
 import JoinContent from '../components/JoinContent';
 import WebDesignAgency from '../components/WebDesignAgency';
+import WebDevSeo from '../components/WebDevSeo';
 
 const ReferencePage = () => {
   useEffect(() => {
@@ -18,17 +19,18 @@ const ReferencePage = () => {
 
   return (
     <div>
+      <ServicesPic />
       <div id="marketing-reference">
-       <ServicesPic />
-      </div>
-      <div id="video-prod">
         <SocialMediaMarketing />
       </div>
-      <div id="graphic-web">
+      <div id="video-prod">
         <VideoProdVoiceOver />
       </div>
+      <div id="graphic-web">
+       <WebDesignAgency />  
+      </div>
       <div id="web-dev">
-        <WebDesignAgency />
+        <WebDevSeo />
       </div>
       <JoinContent />
     </div>

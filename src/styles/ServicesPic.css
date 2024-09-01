@@ -10,7 +10,7 @@
     height: 638px;
     top: 21px;
     left: 257px;
-   
+    border-radius: 15px;
 }
 
 .serviceImg_sq {
@@ -44,6 +44,7 @@
         height: 338px;
         top: 20px;
         left:30px;
+        border-radius: 15px;
     }
     
     .serviceImg_sq {

@@ -22,11 +22,10 @@
 }
 
 .videoImg {
-    width: 100%;
-    max-width: 1329px;
-    height: auto;
-    border-radius: 30px;
-    opacity: 1;
+    height: 300px;
+    width: 1300px; 
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .VideoProdVoiceOver_text {

@@ -1,4 +1,4 @@
-.WebDesignAgency_container {
+.wds_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,11 +6,12 @@
     padding: 20px;
 }
 
-.wdaMain {
+.wdsMain {
     width: 100%;
     max-width: 1479px;
     height: auto;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     background: #F1F2F2;
@@ -18,25 +19,29 @@
     border-radius: 30px;
 }
 
-.wdaPic {
-    width: 100%;
-    max-width: 506px;
-    height: auto;
-    border-radius: 30px;
-    margin-left: 20px;
+.wds_img {
+    width: 1100px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.wda_info {
+.wdsPic {
+    width: 800px;
+    height: 340px;
+    border-radius: 30px;
+    
+}
+
+.wds_info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 20px;
+    justify-content: flex-end;
     width: 100%;
-    max-width: 60%;
-    margin-left: 20px;
+    margin-left: 120px;
 }
 
-.wda_info h2 {
+.wds_info h2 {
     font-family: Poppins;
     font-size: 40px;
     font-weight: 700;
@@ -46,7 +51,7 @@
     margin-bottom: 20px;
 }
 
-.wda_info p {
+.wds_info p {
     font-family: Poppins;
     font-size: 30px;
     font-weight: 300;
@@ -55,7 +60,7 @@
     margin: 0;
 }
 
-.wdaBtn {
+.wdsBtn {
     width: 175px;
     height: 48px;
     border-radius: 50px;
@@ -70,30 +75,30 @@
 }
 
 @media (max-width: 768px) {
-    .wdaPic {
+    .wdsPic {
         width: 100%;
         max-width: 400px;
         margin-left: 0;
     }
 
-    .wda_info {
+    .wds_info {
         width: 100%;
         max-width: none;
         padding-left: 0;
         margin-left: 0;
     }
 
-    .wda_info h2 {
+    .wds_info h2 {
         font-size: 30px;
         line-height: 36px;
     }
 
-    .wda_info p {
+    .wds_info p {
         font-size: 20px;
         line-height: 28px;
     }
 
-    .wdaBtn {
+    .wdsBtn {
         width: 150px;
         height: 40px;
         font-size: 14px;
@@ -101,33 +106,32 @@
 }
 
 @media (max-width: 480px) {
-    .wda_img {
-        padding-right: 20px;
-     }
-     .wdaPic {
-         width: 100%;
-         max-width: 300px;
-         height: 220px;
-     }
-    
+    .wds_img {
+       padding-left: 20px;
+    }
+    .wdsPic {
+        width: 100%;
+        max-width: 300px;
+        height: 220px;
+    }
 
-    .wda_info {
+    .wds_info {
         width: 100%;
         padding-left: 10px;
         margin-left: 0;
     }
 
-    .wda_info h2 {
+    .wds_info h2 {
         font-size: 24px;
         line-height: 32px;
     }
 
-    .wda_info p {
+    .wds_info p {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .wdaBtn {
+    .wdsBtn {
         width: 120px;
         height: 36px;
         font-size: 12px;
