@@ -100,8 +100,32 @@
   margin-left: 10px;
 }
 
+@media screen and (max-width: 1168px) {
+  .navbar-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%; 
+    position: relative;
+  }
+  
+  .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  .contact_header {
+    position: absolute;
+    left: 600px;
+  }
+}
 
-@media screen and (max-width: 768px) {
+
+
+
+@media screen and (max-width: 767px) {
   .navbar-container {
     display: flex;
     justify-content: flex-start;
