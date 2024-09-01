@@ -79,7 +79,9 @@
 
 @media (max-width: 480px) {
     .videoImg {
-        height: 200px;
+        height: 300px;
+        width: 100%;
+        max-width: none;
     }
 
     .VideoProdVoiceOver_text h2 {

@@ -103,7 +103,7 @@
 
 .navbar.expanded .navbar-toggle {
   top: 100px; 
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 @media screen and (max-width: 1168px) {
