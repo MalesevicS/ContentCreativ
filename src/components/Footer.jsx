@@ -3,10 +3,13 @@ import "../styles/Footer.css";
 import logoPic from "../images/logo.png";
 import { Link } from 'react-router-dom';
 import { FaEnvelope, FaPhone, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { useRef } from 'react';
+
 
 
 function Footer() {
   const phoneNumber = "+38163339318";
+  const footerRef = useRef(null);
 
   const handleCallPhoneNumber = () => {
     window.location.href = `tel:${phoneNumber}`;
@@ -15,9 +18,10 @@ function Footer() {
   const openGoogleMaps = () => {
     window.open("https://www.google.com/maps/search/?api=1&query=Obilicev+venac+18,+Belgrade,+Republic+of+Serbia");
   };
+ 
 
   return (
-    <div className='footer'>
+    <div id="footer" className='footer' ref={footerRef} >
       <div className="footerWrapper">
       <div className='logoF'>
         <img className='logoFooter' src={logoPic} alt="logoFooter" />

@@ -95,6 +95,12 @@
   border-radius: 50px;
   border: 1px solid #C6E070;
 }
+
+.contact_header:hover {
+  cursor: pointer;
+}
+
+
 .navbar.expanded .navbar-toggle {
   top: 100px; 
   margin-left: 10px;
