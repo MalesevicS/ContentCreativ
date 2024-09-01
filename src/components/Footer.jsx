@@ -43,8 +43,8 @@ function Footer() {
           <Link to="/reference">Services</Link>
       </div>
       <div className="socialF">
-        <a href="mailto:your-email@example.com"><FaEnvelope className='socIcon' />contentcreativ@mail.com</a>
-        <a href={`tel:${phoneNumber}`}><FaPhone className='socIcon' />+3810532153215</a>
+        <a href="mailto:your-email@example.com"><FaEnvelope className='socIcon' />office@contentcreativ.com</a>
+        <a href={`tel:${phoneNumber}`}><FaPhone className='socIcon' />+38163339318</a>
         <div className="socIcons">
         <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
