@@ -73,6 +73,8 @@
 
 .navbar-toggle {
   display: none;
+  top: 100px; 
+  margin-left: 25px;
 }
 
 .navbar-toggle span {
@@ -166,6 +168,9 @@
     position: absolute;
     top: 50px;
     left: 300px;
+  }
+  .contact_header {
+   display: none;
   }
 }
 

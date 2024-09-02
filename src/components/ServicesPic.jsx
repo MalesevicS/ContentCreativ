@@ -4,9 +4,9 @@ import serviceImg from "../images/servicePic.jpg"
 
 const ServicesPic = () => {
   return (
-    <div className='servicePic_container'>
+    <div  className='servicePic_container'>
         <img className='service_Img' src={serviceImg} alt="serviceImg" />
-        <div className='serviceImg_sq'></div>
+        <div  className='serviceImg_sq'></div>
     </div>
   )
 }

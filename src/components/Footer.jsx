@@ -28,7 +28,7 @@ function Footer() {
       </div>
       <div className="copyF">
         <div className="copyH">
-          <h2> Copyright Content Creativ©2023.</h2>
+          <h2> Copyright Content Creativ©2024.</h2>
         </div>
         <div className="copyP">
           <p className='copyPf'>
@@ -48,7 +48,7 @@ function Footer() {
         <div className="socIcons">
         <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+        <a href="https://www.youtube.com/@ContentCreativagency" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
         </div>
       </div>
       </div>
