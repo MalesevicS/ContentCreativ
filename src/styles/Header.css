@@ -1,5 +1,5 @@
 .navbar {
-  background: #0187A0;
+  background: #046b7d;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -35,8 +35,11 @@
 
 .logoPic {
   margin: 5px;
-  height: 64px;
-  width: 72px; 
+  height: 100px;
+  width: 112px; 
+  opacity: 2;
+  position: absolute;
+  top: -10px;
 }
 
 .navbar-logo {

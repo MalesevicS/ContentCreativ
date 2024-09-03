@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Footer.css";
-import logoPic from "../images/logo.png";
+import logoPic from "../images/clogo.png";
 import { Link } from 'react-router-dom';
 import { FaEnvelope, FaPhone, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import { useRef } from 'react';

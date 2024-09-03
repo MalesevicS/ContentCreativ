@@ -74,7 +74,7 @@
     background: #C6E070;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1008px) {
     .wdsPic {
         width: 100%;
         max-width: 400px;
